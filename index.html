@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head></head>
+    <body>
+    
+        <div id="container">
+            <h2>Tip Calculator</h2>
+            <form>
+                <p>How much was your bill?</p>$
+                <input type="text" id="Bill_amount">
+                <br><br><br>
+                
+               <p> How was your service?</p>
+                <select id="service_satisfaction">
+                    <option selected disabled>Choose one</option>
+                    <option value="Outstanding">Outstanding - 30%</option>
+                    <option value="Good">Good - 20%</option>
+                    <option value="It was OK">It was OK - 15%</option>
+                    <option value="Bad">Bad - 10%</option>
+                    <option value="Terrible">Terrible - 5%</option>
+                    
+                </select>  
+                <br><br><br>
+                 How many people are sharing the bill?
+                <br><br>
+                <input type="text" id="People_amount" placeholder="Number of people"> people
+                <br><br>
+                <button type="button" id="calculate">Calculate!
+                </button>
+            </form>
+        </div>
+        
+        <div id="Tip answer">
+        
+            <p>The answer is:</p>
+        </div>
+        <script type="text/javascript" src="TipCalculator_js.js"></script>
+    </body>
+
+
+
+</html>
